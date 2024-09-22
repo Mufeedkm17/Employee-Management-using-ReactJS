@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.dashboard {
+  margin-left: 220px;
+  padding: 20px;
+  padding-top: 0;
+}
+
+.dashboard .header .title {
+  font-size: 28px;
+  text-align: center;
+  background-color: #ffc107;
+  padding: 20px;
+  color: black;
+  margin: 0;
+  border-top: 4px solid #212f44;
+  border-bottom: 4px solid #212f44;
+  font-weight: bold;
+  margin-top: 0px;
+  width: 100%;
+}
+
+
+.summary-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.card {
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.card-title {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-total {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sub-title {
+  font-size: 30px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.admin-table, th, td {
+  border: 1px solid #dee2e6;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+.edit-btn, .delete-btn {
+  margin-right: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.edit-btn {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #ffc107;
+  color: white;
+}
